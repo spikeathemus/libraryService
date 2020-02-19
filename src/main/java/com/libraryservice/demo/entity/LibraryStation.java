@@ -12,4 +12,28 @@ public class LibraryStation {
 
     public LibraryStation() {
     }
+
+    public int getLibraryId() {
+        return LibraryId;
+    }
+
+    public void setLibraryId(int libraryId) {
+        LibraryId = libraryId;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public BookEntity getBookEntity() {
+        return bookEntity;
+    }
+
+    public void setBookEntity(BookEntity bookEntity) {
+        this.bookEntity = bookEntity;
+    }
 }
